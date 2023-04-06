@@ -1,1 +1,12 @@
 # My-Personal-Website
+<a href="index.html">Home</a>
+
+
+ <a href="about.html">About</a>
+
+
+
+  <a href="portfolio.html">Portfolio</a>
+
+
+
