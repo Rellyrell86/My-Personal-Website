@@ -19,7 +19,7 @@ font-size: 2rem;
     left: 0;
     right: 0;
     padding: 1px 1px;
-    box-shadow: 0 2px 2px -2px rgb(0, 0, 0);
+    
     
 }
 
@@ -27,17 +27,174 @@ font-size: 2rem;
 
 
 body {
-
+    background-repeat: no-repeat;
     background-color: rgb(226, 43, 113);
+    background-image: url(https://i.gifer.com/BwZ.gif);
+    background-size: cover;
+
 }
  
 
 .center {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 10%;
+    margin-right: 430px;
+    margin-left: 430px;
+    width: 640px;
+    height: 640px;
+    padding-top: 70px;
     border-radius: 50%;
+    overflow: hidden;
+
+}
+ 
+
+h1 {
+padding-top: 100px;
+font-style: italic;
+text-align: center;
+}
+
+
+main{
+padding-top: 50px;
+padding-left: 50px;
+
+
+}
+
+header {
+   border: 2px solid mediumvioletred;
+   background-color: blueviolet;
+   
+}
+
+
+.head1 {
+ text-align: center;
+
+}
+
+
+.selfie {
+ width: 600px;
+ height: 600px;
+ border-radius: 50%;
+ margin-left: 450px;
+ border: 10px solid blueviolet;
+}
+
+
+
+.cup {
+
+ height: 200px;
+ width: 200px;
+
+}
+
+.cup2 {
+  height: 200px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.cup3 {
+padding-left: 20px;
+height: 200px;
+width: 200px;
+}
+
+
+section {
+    background-color: blueviolet;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    margin-right: 100px;
+    padding-top: 30px;
+    margin-left: 100px;
     
+}
+
+.haiti {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.para2 {
+    padding-top: 20px;
+    
+
+}
+
+p {
+
+   font-style: italic;
+}
+
+.img1 {
+   width: 200px;
+   height: 200px;
+   float: left;
+}
+
+.img2 {
+   width: 200px;
+   height: 200px;
+   float: left;
+   padding-left: 20px;
+
+}
+
+.para3 {
+   padding-top: 200px;
+
+
+}
+
+.bear {
+width: 200px;
+height: 200px;
+
+
+}
+
+.pic {
+width: 200px;
+height: 200px;
+
+}
+
+.port1 {
+  padding-bottom: 100px;
+
+}
+
+.part1 {
+ background-color: blue;
+ margin-right: 450px;
+ padding-top: 10px;
+
+}
+
+
+.part2 {
+background-color: blue;
+margin-right: 450px;
+padding-top: 10px;
+
+
+
+
+}
+
+
+.part3 {
+
+    background-color: blue;
+    margin-right: 450px;
+    padding-top: 10px;
+   
+
+
 
 }
