@@ -1,18 +1,18 @@
-.name {
+/*.name {
 
 float: left;
 
 
-    }
+    }*/
 
-.links {
+/*.links {
+  
+  align-items: center;
 
-float: right;
+}*/
 
-}
-
-header {
-
+/*header {
+    
     font-family: 'Franklin Gothic Medium';
 font-size: 2rem;
     position: fixed;
@@ -21,16 +21,20 @@ font-size: 2rem;
     padding: 1px 1px;
     
     
-}
+}*/
 
 
 
 
 body {
-    background-repeat: no-repeat;
+    background-color: grey;
+    
+    
+    
+    /*background-repeat: no-repeat;
     background-color: rgb(226, 43, 113);
     background-image: url(https://i.gifer.com/BwZ.gif);
-    background-size: cover;
+    background-size: cover;*/
 
 }
  
@@ -47,11 +51,11 @@ body {
 }
  
 
-h1 {
+/*h1 {
 padding-top: 100px;
 font-style: italic;
 text-align: center;
-}
+}*/
 
 
 main{
@@ -61,26 +65,32 @@ padding-left: 50px;
 
 }
 
-header {
+/*header {
    border: 2px solid mediumvioletred;
    background-color: blueviolet;
    
-}
+}*/
 
 
-.head1 {
+/*.head1 {
  text-align: center;
 
-}
+}*/
 
 
 .selfie {
- width: 600px;
+ height: 100vh;
+ 
+ 
+ 
+}
+ 
+    /*width: 600px;
  height: 600px;
  border-radius: 50%;
  margin-left: 450px;
  border: 10px solid blueviolet;
-}
+}*/
 
 
 
@@ -105,7 +115,7 @@ width: 200px;
 
 
 section {
-    background-color: blueviolet;
+   /* background-color: blueviolet;*/
     padding-left: 100px;
     padding-bottom: 300px;
     margin-right: 100px;
@@ -170,7 +180,7 @@ height: 200px;
 }
 
 .part1 {
- background-color: blue;
+ /*background-color: blue;*/
  margin-right: 450px;
  padding-top: 10px;
 
@@ -178,7 +188,7 @@ height: 200px;
 
 
 .part2 {
-background-color: blue;
+/*background-color: blue;*/
 margin-right: 450px;
 padding-top: 10px;
 
@@ -190,7 +200,7 @@ padding-top: 10px;
 
 .part3 {
 
-    background-color: blue;
+    /*background-color: blue;*/
     margin-right: 450px;
     padding-top: 10px;
    
@@ -198,3 +208,56 @@ padding-top: 10px;
 
 
 }
+
+ul {
+  list-style-type: none;
+
+  
+
+}
+
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-left: 8%;
+   padding-right: 8%;
+   font-weight: bold;
+   text-decoration: none;
+   color: blueviolet;
+   text-transform: capitalize;
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a:hover {
+  color:red;
+   transition: 0s;
+}
+
+div {
+   float: right;
+   margin-right: 600px;
+   margin-top: 90px;
+
+}
+
+h2 {
+
+color: bisque;
+
+}
+ h1 {
+    color: beige;
+ }
+  
+ article {
+   border: solid blue;
+   margin-right: 1200px;
+
+ }
+
+
